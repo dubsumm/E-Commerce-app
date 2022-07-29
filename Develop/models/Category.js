@@ -12,8 +12,10 @@ Category.init(
       autoIncrement: true,
       allowNull: false
     },
-    category_name: DataTypes.STRING,
+    category_name: {
+      type: DataTypes.STRING,
     allowNull: false
+    }
   },
   {
     sequelize,
